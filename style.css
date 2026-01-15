@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  text-align: center;
+  background-color: #f5f5f7;
+  padding: 10px;
+}
+
+.header-links {
+  margin-left: 15px;
+}
+#techblogLogo {
+  margin-right: 50px;
+  color: #5b47d1;
+  background-color: #f0edff;
+  padding: 7px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+#header {
+  text-align: center;
+  color: #ffffff;
+  background-color: #5b47d1;
+  padding: 120px;
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+#header-text {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#header-subtext {
+  font-size: 20px;
+}
+
+#main-title {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+main {
+  background-color: #f5f5f7;
+  padding-bottom: 200px;
+}
+.cart {
+  background-color: #ffffff;
+  width: 320px;
+  height: 430px;
+
+  margin-left: 30px;
+}
+
+.colors {
+  width: 320px;
+  height: 200px;
+}
+.cart-head {
+  padding-bottom: 7px;
+}
+.cart-date {
+  font-size: 13px;
+}
+
+.cart-author {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.cart-title {
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 3px;
+}
+.cart-text {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.text-box {
+  padding: 10px 20px;
+}
+
+#color1 {
+  background-color: #c7b8ff;
+}
+#color2 {
+  background-color: #ffb8d8;
+}
+#color3 {
+  background-color: #b8e0ff;
+}
+#color4 {
+  background-color: #d4ffb8;
+}
+#color5 {
+  background-color: #ffe4b8;
+}
+#color6 {
+  background-color: #ffd4b8;
+}
+
+#cart-first-row,
+#cart-second-row {
+  display: flex;
+  justify-content: center;
+}
+#cart-second-row {
+  margin-top: 30px;
+}
+footer {
+  color: #ffffff;
+  background-color: #252424;
+}
+
+footer h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+#footer-carts {
+  display: flex;
+  gap: 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-left: 20px;
+}
+.footer-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer-cart {
+  margin-top: 20px;
+}
+
+.footer-lists,
+.techblog-text {
+  font-size: 14px;
+  color: #a1a1a6;
+  list-style: none;
+}
+.footer-lists li {
+  padding-bottom: 10px;
+}
+#techblog-cart {
+  width: 300px;
+}
+#rights {
+  background-color: #020202;
+  color: #86868b;
+  font-size: 13px;
+  padding: 20px;
+  text-align: center;
+}
